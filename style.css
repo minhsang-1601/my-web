@@ -329,22 +329,29 @@
         }
         /*------------------phan chan trag web*/
         
-        footer {
-            background: #f765038f;
-            height: 80px;
-            line-height: 30px;
+        #footer{
+            padding: 64px 16px;
             text-align: center;
-            color: azure;
-            font-size: 25px;
-            font-weight: bolder;
-        }
+
+    }
+    #footer .socials-list{
+        font-size: 20px;
+       
         
-        footer a {
-            margin-left: 10px;
-        }
-        
-        footer p {
-            padding-top: 20px;
-            padding-bottom: 80px;
-            font-size: 25px;
-        }
+    }
+    #footer .socials-list a{
+        color:rgba(0,0, 0, 0.6);
+        text-decoration: none;
+    }
+    #footer .socials-list a:hover{
+        color:rgba(0,0, 0, 0.4);
+    }
+
+    #footer .copy-right{
+        margin-top: 15px;
+        color:rgba(0,0, 0, 0.4);
+    }
+
+    #footer .copy-right a{
+        color:rgba(0,0, 0, 0.4);
+    }
