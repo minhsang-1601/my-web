@@ -1,0 +1,350 @@
+        * {
+            padding: o;
+            margin: 0;
+            font-family: "Roboto", sans-serif;
+        }
+        
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+        }
+        
+        header {
+            width: 1000px;
+            height: 80px;
+            background: #f765038f;
+        }
+        
+        header img {
+            padding-left: 5px;
+        }
+        /* Thay đổi màu liên kết khi di chuột qua */
+        
+        .menu a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        nav {
+            height: 35px;
+            background: blue;
+        }
+        
+        nav .menu ul {
+            list-style: none;
+        }
+        
+        nav .menu ul li {
+            float: left;
+            line-height: 35px;
+            padding: 0 15px;
+        }
+        
+        nav .menu ul li a {
+            color: #fff;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        
+        nav .search {
+            line-height: 35px;
+            float: right;
+            margin-right: 10px;
+        }
+        /*--------------phan than------------------*/
+        
+        .phanthan {
+            width: 1000px;
+            float: left;
+        }
+        
+        .phai {
+            width: 690px;
+            float: left;
+            background-color: #fff;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+        
+        .trai {
+            width: 300px;
+            float: left;
+            background-color: #fff;
+        }
+        
+        .ngaythang {
+            width: 300px;
+            height: 50px;
+            text-align: center;
+            padding-top: 10px;
+            font-size: 3opx;
+            font-weight: bolder;
+            font-style: oblique;
+            margin-top: 10px;
+        }
+        
+        .chau1 {
+            width: 300px;
+            height: 30px;
+            background: blue;
+        }
+        
+        .timtim {
+            text-align: center;
+            color: #fff;
+            margin-top: 5px;
+            background-color: white;
+            width: 300px;
+            font-size: 30px;
+        }
+        /*----------------------con tro chuot-----------------*/
+        
+        .tenchau {
+            text-align: center;
+            color: #fff;
+        }
+        
+        .chau2 {
+            width: 300px;
+            height: auto;
+            background-color: #fff;
+        }
+        
+        .name {
+            color: blue;
+        }
+        
+        .chau2 p:hover {
+            color: rgb(55, 41, 187);
+        }
+        
+        .chau2 li {
+            list-style: none;
+        }
+        
+        .con1 {
+            margin-bottom: 20px;
+            background-color: antiquewhite;
+        }
+        
+        .con2 {
+            background-color: bisque;
+            margin-bottom: 10px;
+        }
+        /*--------------slide show-0------*/
+        
+        * {
+            box-sizing: border-box
+        }
+        /* thiết lập style cho slideshow container */
+        
+        .slideshow-container {
+            width: 300px;
+            height: 210px;
+            position: relative;
+            margin: auto;
+        }
+        /* ẩn hình ảnh cho phần tử slideshow */
+        
+        .mySlides {
+            display: none;
+        }
+        /* thiết kế nút mũi tên*/
+        
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        /* thiết kế nút mũi tên next nằm phía bên phải */
+        
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        /* hiệu ứng thay đổi background khi hover vào nút mũi tên*/
+        
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        /* Thiết lập style cho nội dung của mỗi phần tử slideshow */
+        
+        .text {
+            color: black;
+            border: 20px;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+        /* Thiết lập style cho số hiển thị của phần tử */
+        
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+        /* tạo hiệu ứng chuyển động fade */
+        
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade {
+            from {
+                opacity: .4
+            }
+            to {
+                opacity: 1
+            }
+        }
+        
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+            to {
+                opacity: 1
+            }
+        }
+        /*------------------danh so trang----------*/
+        
+        .page a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        .page {
+            height: auto;
+            width: 690px;
+            background: rgb(248, 234, 196);
+            margin-bottom: 5px;
+        }
+        
+        .page ul {
+            list-style: none;
+        }
+        
+        .page ul li {
+            float: left;
+            line-height: 35px;
+            padding: 0 15px;
+        }
+        
+        .page ul li a {
+            color: dodgerblue;
+            font-size: 20px;
+            text-decoration: none;
+            text-align: center;
+            border-style: outset;
+        }
+        /*-----------------------bai moi-------------------*/
+        
+        .baimoi {
+            width: 300px;
+            background-color: #fff;
+            margin-bottom: 5px;
+        }
+        
+        .baimoi img {
+            border: 1px #d4d4d4 solid;
+            padding: 2px;
+            border-radius: 50%;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+        }
+        
+        .tieude {
+            width: 300px;
+            height: 50px;
+            background-color: #f7cdb18f;
+            font-size: 15px;
+        }
+        /*---------------------noi dung phan chinh*/
+        
+        .tenbaiviet {
+            color: orangered;
+            text-align: center;
+        }
+        
+        .baimoiT {
+            width: 690px;
+            height: 150px;
+            background: rgb(245, 223, 182);
+            margin-bottom: 10px;
+        }
+        
+        .baimoiT p:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        .baimoiT img {
+            border-radius: 15%;
+            -moz-border-radius: 15%;
+            -webkit-border-radius: 15%;
+        }
+        
+        .khunganh {
+            width: 150px;
+            height: 150px;
+            float: left;
+            background-color: aquamarine;
+        }
+        
+        .gioithieu {
+            width: 540px;
+            height: 150px;
+            float: left;
+            background-color: aqua;
+        }
+        
+        .page {
+            float: right;
+        }
+        
+        .tieudeT {
+            width: 690px;
+            height: 150px;
+            font-size: 17px;
+            text-align: center;
+        }
+        /*------------------phan chan trag web*/
+        
+        footer {
+            background: #f765038f;
+            height: 80px;
+            line-height: 30px;
+            text-align: center;
+            color: azure;
+            font-size: 25px;
+            font-weight: bolder;
+        }
+        
+        footer a {
+            margin-left: 10px;
+        }
+        
+        footer p {
+            padding-top: 20px;
+            padding-bottom: 80px;
+            font-size: 25px;
+        }
