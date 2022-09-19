@@ -100,9 +100,11 @@
         /*----------------------con tro chuot-----------------*/
         
         .tenchau {
+            line-height: 30px;
             text-align: center;
             color: #fff;
         }
+      
         
         .chau2 {
             width: 300px;
@@ -215,6 +217,7 @@
             to {
                 opacity: 1
             }
+
         }
         
         @keyframes fade {
@@ -277,6 +280,7 @@
             height: 50px;
             background-color: #f7cdb18f;
             font-size: 15px;
+            cursor: pointer;
         }
         /*---------------------noi dung phan chinh*/
         
@@ -292,10 +296,10 @@
             margin-bottom: 10px;
         }
         
-        .baimoiT p:hover {
+        /* .baimoiT p:hover {
             background-color: #ddd;
             color: black;
-        }
+        } */
         
         .baimoiT img {
             border-radius: 15%;
@@ -316,6 +320,19 @@
             float: left;
             background-color: aqua;
         }
+      .more-btn{
+            text-decoration: none;
+           font-weight: 500;
+            cursor: pointer;
+            background-color: #fff;
+            font-weight: 600;
+        
+        }
+        .more-btn:hover{
+            background-color:#e67429d8;
+            color:#ffff;
+            font-weight: 600;
+        }
         
         .page {
             float: right;
@@ -332,7 +349,10 @@
         #footer{
             padding: 64px 16px;
             text-align: center;
+    }
 
+    .map-section{
+        width: 100%;
     }
     #footer .socials-list{
         font-size: 20px;
@@ -355,3 +375,6 @@
     #footer .copy-right a{
         color:rgba(0,0, 0, 0.4);
     }
+
+   
+   
