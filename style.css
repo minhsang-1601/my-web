@@ -19,6 +19,8 @@
             padding-left: 5px;
         }
         /* Thay đổi màu liên kết khi di chuột qua */
+
+        
         
         .menu a:hover {
             background-color: #ddd;
@@ -376,6 +378,11 @@
     #footer .copy-right a{
         color:rgba(0,0, 0, 0.4);
     }
-
+    
+    button:hover {
+        background-color: #ccc;
+        color: #000;
+        cursor: pointer;
+    }
    
    
